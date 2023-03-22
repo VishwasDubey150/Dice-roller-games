@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".naming"
+    android:orientation="vertical"
+    android:background="#FFACAC">
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/back_grey"
+        android:layout_marginLeft="10dp"
+        android:onClick="back">
+    </ImageView>
+
+    <TextView
+        android:id="@+id/heading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Player's names"
+        android:textSize="45dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="0dp"
+        android:fontFamily="@font/poppins_bold">
+    </TextView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        app:cardCornerRadius="30dp"
+        android:layout_gravity="center"
+        app:cardElevation="30dp">
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/p1"
+                android:layout_width="240dp"
+                android:layout_height="60dp"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="9dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="35dp"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/red"
+                        android:layout_marginLeft="10dp">
+                    </ImageView>
+
+                    <EditText
+                        android:id="@+id/name1"
+                        android:layout_height="match_parent"
+                        android:layout_width="150dp"
+                        android:inputType="textPersonName"
+                        android:layout_gravity="center"
+                        android:fontFamily="@font/poppins_bold"
+                        android:textSize="20dp"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="20dp"
+                        android:text="Player 1"
+                        android:background="@drawable/signup_et_bg">
+                    </EditText>
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/p2"
+                android:layout_width="240dp"
+                android:layout_height="60dp"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="9dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="35dp"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/blue"
+                        android:layout_marginLeft="10dp">
+                    </ImageView>
+
+                    <EditText
+
+                        android:id="@+id/name2"
+                        android:layout_height="match_parent"
+                        android:layout_width="150dp"
+                        android:inputType="textPersonName"
+                        android:layout_gravity="center"
+                        android:fontFamily="@font/poppins_bold"
+                        android:textSize="20dp"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="20dp"
+                        android:text="Player 2"
+                        android:background="@drawable/signup_et_bg">
+                    </EditText>
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/p3"
+                android:layout_width="240dp"
+                android:layout_height="60dp"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="9dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="35dp"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/yellow"
+                        android:layout_marginLeft="10dp">
+                    </ImageView>
+
+                    <EditText
+                        android:id="@+id/name3"
+                        android:layout_width="159dp"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:background="@drawable/signup_et_bg"
+                        android:fontFamily="@font/poppins_bold"
+                        android:inputType="textPersonName"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="20dp"
+                        android:text="Player 3"
+                        android:textSize="20dp"></EditText>
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/p4"
+                android:layout_width="240dp"
+                android:layout_height="60dp"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="9dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="35dp"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/green"
+                        android:layout_marginLeft="10dp">
+                    </ImageView>
+
+                    <EditText
+
+                        android:id="@+id/name4"
+                        android:layout_height="match_parent"
+                        android:layout_width="150dp"
+                        android:inputType="textPersonName"
+                        android:layout_gravity="center"
+                        android:fontFamily="@font/poppins_bold"
+                        android:textSize="20dp"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="20dp"
+                        android:text="Player 4"
+                        android:background="@drawable/signup_et_bg">
+                    </EditText>
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <EditText
+                android:id="@+id/target"
+                android:layout_height="50dp"
+                android:layout_marginTop="50dp"
+                android:layout_width="200dp"
+                android:inputType="number"
+                android:layout_gravity="center"
+                android:fontFamily="@font/poppins_bold"
+                android:textSize="20dp"
+                android:elevation="15dp"
+                android:maxLength="4"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:hint="Enter the target"
+                android:background="@drawable/signup_et_bg">
+            </EditText>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btn1"
+                android:layout_width="160dp"
+                android:layout_height="56dp"
+                android:background="@drawable/btn_bg"
+                android:fontFamily="sans-serif-black"
+                android:text="Start"
+                android:layout_marginTop="15dp"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="30dp"
+                android:onClick="Start"
+                android:layout_marginBottom="20dp"
+                android:layout_gravity="center"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.771" />
+
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+    </androidx.cardview.widget.CardView>
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>
