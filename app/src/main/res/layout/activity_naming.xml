@@ -7,7 +7,7 @@
     android:layout_height="match_parent"
     tools:context=".naming"
     android:orientation="vertical"
-    android:background="#FFACAC">
+    android:background="#FFE0E0">
 
     <ImageView
         android:layout_width="30dp"
