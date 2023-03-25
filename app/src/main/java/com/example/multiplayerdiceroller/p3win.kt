@@ -24,5 +24,6 @@ class p3win : AppCompatActivity() {
 
     fun replay(view: View) {
         startActivity(Intent(this@p3win,MainActivity::class.java))
+        finish()
     }
 }

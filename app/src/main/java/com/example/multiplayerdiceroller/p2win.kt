@@ -27,5 +27,6 @@ class p2win : AppCompatActivity() {
 
     fun replay(view: View) {
         startActivity(Intent(this@p2win,MainActivity::class.java))
+        finish()
     }
 }

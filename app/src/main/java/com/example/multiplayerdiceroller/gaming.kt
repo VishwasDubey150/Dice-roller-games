@@ -421,6 +421,7 @@ class gaming : AppCompatActivity() {
 
     fun quit(view: View) {
         startActivity(Intent(this@gaming,MainActivity::class.java))
+        finish()
     }
 
 

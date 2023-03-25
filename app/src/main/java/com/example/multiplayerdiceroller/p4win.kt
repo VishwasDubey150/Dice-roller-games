@@ -26,5 +26,6 @@ class p4win : AppCompatActivity() {
 
     fun replay(view: View) {
         startActivity(Intent(this@p4win,MainActivity::class.java))
+        finish()
     }
 }
